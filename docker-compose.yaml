@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  yashwebapp: 
+    image: yashmobiweb:appv1
+    build: .
+    container_name: yashwebc1
+    ports:
+      - 2331:80
+    restart: always
+    
